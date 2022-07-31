@@ -1,0 +1,52 @@
+body{
+    padding:0;
+    margin:0;
+    background-image: linear-gradient(to left , purple 50% , blue 50%);
+}
+
+  
+/* main container */
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* strip display in middle of the canvas */
+.strip{
+    display: flex;
+    position: absolute;
+    height: 50px;
+    width: 600px;
+    justify-content: center;
+    background:rgba(128, 128, 128, 0.267);
+}
+
+/* strip paragraph */
+.strip p{
+    font-size: 2rem;
+    margin:5px 0px;
+    color:white;
+}
+
+.ping-pong-text{
+    position: absolute;
+    font-size: 4rem;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    background-color: cornflowerblue;
+    color:white;
+}
+
+.pos-1{
+    top:8%;
+    left:5%;
+}
+
+.pos-2{
+    top:8%;
+    right:5%;
+}
+
